@@ -354,9 +354,8 @@ pub use cortex_m::peripheral::{CBP, CPUID, DCB, DWT, FPB, FPU, ITM, MPU, NVIC, S
 #[cfg(feature = "rt")]
 pub use cortex_m_rt::interrupt;
 #[allow(unused_imports)]
-use generic::*;
-#[doc = r"Common register and bit access and modify traits"]
-pub mod generic;
+use crate::generic::*;
+
 #[doc = "Analog Comparator Controller"]
 pub struct ACC {
     _marker: PhantomData<*const ()>,

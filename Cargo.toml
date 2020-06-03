@@ -4,10 +4,9 @@ version = "0.1.0"
 authors = ["Todd Stellanova <tstellanova@users.noreply.github.com>"]
 edition = "2018"
 description ="Experimental PAC crate for Atmel SAM E7x"
-license="BSD-3-CLAUSE"
+license = "BSD-3-Clause"
 
 [dependencies]
-
 bare-metal = "0.2.4"
 cortex-m = ">=0.5.8,<0.7"
 cortex-m-rt = { version =  "0.6.10", optional = true}
