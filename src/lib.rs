@@ -2,6 +2,7 @@
 #![no_std]
 
 
+#![allow(unused)]
 mod generic;
 pub use self::generic::*;
 
